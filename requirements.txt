@@ -1,8 +1,10 @@
-torch>=2.0.0
-torchaudio>=2.0.0
+# Manually install CPU only versions
+# torch>=2.0.0
+# torchaudio>=2.0.0
+
 audiocraft>=1.0.0
 scipy>=1.10.0
-numpy>=1.24.0
+numpy<2.0.0
 fastapi>=0.104.0
 uvicorn>=0.24.0
 python-multipart>=0.0.6
