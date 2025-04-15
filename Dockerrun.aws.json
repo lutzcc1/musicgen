@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Ports": [
+    {
+      "ContainerPort": "8000",
+      "HostPort": "8000"
+    }
+  ],
+  "Memory": "32768",
+  "Logging": "/var/log/application"
+}
